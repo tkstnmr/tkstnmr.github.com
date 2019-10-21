@@ -1,3 +1,56 @@
+::-moz-selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #fe57a1;
+  color: #fff;
+  text-shadow: none;
+}
 body {
   background: #fff;
+  color: #1a1a1a;
+  margin: 50px;
+  padding: 0;
+}
+body * {
+  font-family: verdana, sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+}
+a {
+  color: #fe57a1;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+h1 {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-weight: 300;
+  margin: 5em 0 0;
+  padding: 0;
+}
+dl {
+  margin: 10em 0 0;
+  padding: 0;
+}
+dt {
+  margin-top: 1em;
+  padding: 0;
+}
+dd {
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+ul {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style-type: none;
 }
